@@ -78,6 +78,9 @@ var AllLanguages = map[string]*LocaleInfo{
 	"zh-Hans": {
 		Content: zhHans,
 	},
+	"fa": {
+ 	Content: fa,
+		
 	"zh-Hant": {
 		Content: zhHant,
 	},
