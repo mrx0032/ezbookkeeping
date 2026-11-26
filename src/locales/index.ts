@@ -177,6 +177,13 @@ export const ALL_LANGUAGES: Record<string, LanguageInfo> = {
         textDirection: TextDirection.LTR,
         loadContent: () => import('./zh_Hans.json').then(module => module.default)
     },
+    'fa': {
+        name: 'Persian',
+        displayName: 'فارسی',
+        alternativeLanguageTag: 'fa-IR',
+        textDirection: TextDirection.RTL,
+        loadContent: () => import('./fa.json').then(module => module.default)
+    },
     'zh-Hant': {
         name: 'Chinese (Traditional)',
         displayName: '中文 (繁體)',
